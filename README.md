@@ -13,9 +13,11 @@
 
 ### 5. dann die layouts der Fragmente definieren, einfach die Hintergrundfarbe
 
-### 6 . build.gradle(:app) viewBinding activieren
+### 6 . build.gradle(:app) viewBinding activieren und in der MainActivity initialisieren
 
-### 7 . 
+### 7 . in MainActivity.kt eine Funktion schreiben die die Fragmente bei bedarf ersetzt (supportFragmentManager, verwenden)
+            1. auf die id der BottomNavigationView einen setOnItemSelectedListener setzen
+            2. mittels einer when - Schleife über die geschriebene Funktion "replaceRfagment" jedes Fragment aufrufen
 
 ### 8 . 
 
